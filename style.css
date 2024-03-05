@@ -32,7 +32,7 @@ ul{
 }
 .flex{
     display:flex;
-    justify-content: center;
+   align-items: center;
 }
 
 .container{
@@ -56,7 +56,7 @@ nav{
 
 }
 .company-logo img {
-    width:120px;
+    width:130px;
 }   
 
 .nav-links ul {
@@ -76,3 +76,57 @@ nav{
     height:32px;
     gap:8px;
 }
+
+.news-input{
+    width:200px;
+    height:100%;
+    padding-inline:12px;
+    border-radius:4px;
+    border:2px solid #bBd8e2;
+}
+.search-btn{
+    background-color:var(--accent-color);
+    color:white;
+    padding:8px 24px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer
+}
+
+main{
+    padding-block: 20px;
+    margin-top:80px;
+
+}
+.card-container{
+    justify-content: space-between;
+    align-items: start;
+    row-gap:20px;
+    flex-wrap:wrap;
+}
+.card{
+
+width: 360px;
+min-height: 400px;
+box-shadow:0 0 4px #d4ecff;
+border-radius: 4px;
+cursor: pointer;
+background-color: #fff;
+overflow: hidden;
+}
+.card:hover {
+    box-shadow: 1px 1px 8px #e6aee9;
+    background-color: #E8EEF2;
+    transform: translateY(-2px);
+    }
+    .card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    }
+    .card-content {
+    padding: 12px;
+    }
+    .news-source {
+    margin-block: 12px;
+    }
