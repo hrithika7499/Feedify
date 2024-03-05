@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Nunito:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box  ;
+    
+}
+:root{
+    --primary-text-color:#82247c;
+    --secondary-text-color:#012622; 
+    --accent-color:#6200B3;
+    --accent-color-dark:#3B0086;
+}
+body{
+    font-family:"Martel+Sans",sans-serif ;
+    color:var(--primary-text-color);
+}
+p{
+    font-family:"Poppins",sans-serif;
+    color:var(--secondary-text-color);
+    line-height:1.4rem;
+}
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style: none;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    max-width:1180px;
+    margin-inline:auto;
+    overflow:hidden;
+}
+
+nav{
+    background-color:#D6DBB2;
+    box-shadow: 0 0 4px #e8e672;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+.main-nav{
+    justify-content: space-between;
+    padding:8px 0;
+
+}
+.company-logo img {
+    width:120px;
+}   
+
+.nav-links ul {
+    gap:16px;
+}
+.hover-link{
+    cursor: pointer;
+}
+.hover-link:hover{
+    color:var(--secondary-text-color);
+}
+.hover-link:acitve{
+    color:red;
+}
+
+.search-bar{
+    height:32px;
+    gap:8px;
+}
